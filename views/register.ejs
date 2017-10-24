@@ -1,0 +1,15 @@
+<% include partials/header %>
+
+<div class="container">
+<h3>Registration Page</h3>
+
+<form action="/register" method="POST">
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <button class="btn btn-success">Submit</button>
+</form>
+<div>
+    <a href="/login" style="font-size: 25px; font-family:sans-serif">Already have an account?</a>
+</div>
+</div>
+<% include partials/footer %>

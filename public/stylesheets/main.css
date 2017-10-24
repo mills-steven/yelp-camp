@@ -1,0 +1,32 @@
+body {
+    background-color: #A9C0D7;
+    font-family: 'Arimo', sans-serif;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 10px;
+}
+
+#main img {
+    height: 12em;
+}
+
+.login {
+    font-size: 500em;
+}
+
+#delete-form {
+    display: inline;
+}
+
+#delete-comment {
+    display: inline;
+}
